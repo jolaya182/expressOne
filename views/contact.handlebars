@@ -1,0 +1,30 @@
+<div class="contact us">
+<h3> Contact Us</h3>
+</div>
+<div class="contactUs">
+<h4>sendUs your Questions</h4>
+<form class='formContactUs' role="form" action="/process?form=contactus" method="POST">
+	<input type="hidden" name="_csrf" value="{{csrf}}">
+	<div  class="form-group" >
+		<label for="fieldEmail" class="col-sm-2 control-label">Email</label>
+			<div class="col-sm-4">
+				<input type="text" class="form-control" id="fieldEmail" name="email">
+			</div>
+	  </div> <!-- end of form-group-->
+
+	  <div class="form-group">
+	  	<label for="fieldQues"  class="col-sm-2 control-label" > Questions </label>
+	  	<div class="col-sm-4">
+	  		<input type="text" class="form-control" id="fieldQues" name="ques" >
+	  	 </div>
+	  </div> <!-- end of formgroup-->
+
+	  
+	  <div class="form-group">
+	  	<div class="col-sm-4">
+	  		<button type="submit" class="btn-default" >Submit</button>
+	  	</div>
+	  </div> <!-- end of form group -->
+
+</form>
+</div> 	<!-- end of contact us-->

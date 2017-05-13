@@ -1,0 +1,1 @@
+module.exports={cookieSecret: "force is the ability to father"};
